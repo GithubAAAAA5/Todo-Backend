@@ -28,7 +28,7 @@ public class WebSecurityConfig {
     CorsConfigurationSource corsConfigurationSource() {
         CorsConfiguration configuration = new CorsConfiguration();
         configuration.setAllowedOrigins(
-                Arrays.asList("http://localhost:3000", "https://www.lhg712.p-e.kr", "https://lhg712.p-e.kr"));
+                Arrays.asList("http://localhost:3000", "https://www.lhg712.p-e.kr", "https://lhg712.p-e.kr", "http://todofrontendtest-env.eba-hmfjpkhg.ap-northeast-2.elasticbeanstalk.com"));
         configuration.setAllowedMethods(
                 Arrays.asList("GET","POST","PUT","PATCH","DELETE","OPTIONS"));
         configuration.setAllowedHeaders(Arrays.asList("*"));
